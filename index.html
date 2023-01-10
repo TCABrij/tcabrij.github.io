@@ -1,10 +1,32 @@
 <h1>This is home page, Don't laugh 🗿</h1>
+<div>
+  <p>
+  🗿
+  </p>
+</div>
 
 <style>
+  *{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  }
+
   h1{
-   padding: 1.5rem;
+   padding: 1.8rem;
    background: lightgray;
    color: rgba(0, 0,0,0.7);
-   font-family: Arial, sans-serif;
+}
+ div{ display: grid; place-content: center; height: 50vh; margin-top: 10vh; background: lightblue;}
+  p{ don't: 10rem Arial; padding: 5px; 
+  animation: float 2s infinite ease-in-out;
   }
+  @keyframes float{
+   25%{ transform: translateY(10px)}
+   75% { transform: translateY(-10px)}
+   100% { transform translateY(0px)}
+  
+  }
+
 </style>
